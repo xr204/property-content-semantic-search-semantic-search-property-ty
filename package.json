@@ -1,0 +1,19 @@
+{
+  "name": "property-content-semantic-search",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/maintenance-ranking.test.ts",
+    "seed": "tsx src/seed_property_content.ts"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
